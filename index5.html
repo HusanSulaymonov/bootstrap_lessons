@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap lessons</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <h1 class="text-center mt-5 mb-5">29. Visually hidden, stretched links, text-truncation</h1>
+
+        <div class="container mt-5 mb-5">
+            <h2 class="visually-hidden">Title for screen readers</h2>
+            <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+            <div class="visually-hidden-focusable">A container with a lkjghbkjhvkgckgc
+        </div>
+
+        <hr>
+
+        <div class="container mt-5 mb-5">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card with stretched link</h5>
+                  <p class="card-text">Some quick example text to build on the card title and
+                    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                  </p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container mt-5 mb-5">
+            <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4 text-center">
+                  <img class="w-75" src="./bridge.jpg" alt="Rasm">
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">Columns with stretched link</h5>
+                  <p>Another instance of placeholder content for this other custom component.
+                    <a href="#" class="stretched-link">Go somewhere</a>
+                  </p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Block level -->
+        <div class="row">
+            <div class="col-2 text-truncate">
+                Lorem Ipsum dolor sit amet asdkiosafnv soi;gjns sofigs soifgnss. gvso;
+            </div>
+        </div>
+
+        <!-- Inline level -->
+        <span class="d-inline-block text-truncate" style="max-width: 150px;">
+            Lorem Ipsum dolor sit amet asdkiosafnv soi;gjns sofigs soifgnss.
+        </span>
+
+        <hr>
+
+        <div class="container mt-5 mb-5">
+            <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+            <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+            <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+            <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+            <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+            <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+            <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+            <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+            <div class="p-3 mb-2 bg-body text-dark">.bg-body</div>
+            <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+            <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+        </div>
+
+        <hr>
+
+        <div class="container mt-5 mb-5">
+            <div class="p-3 mb-2 bg-primary bg-gradient text-white">.bg-primary .bg-gradient</div>
+            <div class="p-3 mb-2 bg-secondary bg-gradient text-white">.bg-secondary .bg-gradient</div>
+            <div class="p-3 mb-2 bg-success bg-gradient text-white">.bg-success .bg-gradient</div>
+            <div class="p-3 mb-2 bg-danger bg-gradient text-white">.bg-danger .bg-gradient</div>
+            <div class="p-3 mb-2 bg-warning bg-gradient text-dark">.bg-warning .bg-gradient</div>
+            <div class="p-3 mb-2 bg-info bg-gradient text-dark">.bg-info .bg-gradient</div>
+            <div class="p-3 mb-2 bg-light bg-gradient text-dark">.bg-light .bg-gradient</div>
+            <div class="p-3 mb-2 bg-dark bg-gradient text-white">.bg-dark .bg-gradient</div>
+        </div>
+
+        <hr>
+        
+        <!-- <style>
+            span {
+              display: inline-block;
+              width: 100px;
+              height: 100px;
+              margin: 10px;
+              background-color: #fbfbfb;
+            }
+        </style>
+
+        <div class="container">
+            <span class="border"></span>
+            <span class="border-top"></span>
+            <span class="border-end"></span>
+            <span class="border-bottom"></span>
+            <span class="border-start"></span>
+        </div> -->
+
+        <!-- <style>
+            span {
+              display: inline-block;
+              width: 100px;
+              height: 100px;
+              margin: 10px;
+              background-color: #fbfbfb;
+            }
+        </style>
+          
+        <span class="border border-primary"></span>
+        <span class="border border-secondary"></span>
+        <span class="border border-success"></span>
+        <span class="border border-danger"></span>
+        <span class="border border-warning"></span>
+        <span class="border border-info"></span>
+        <span class="border border-light"></span>
+        <span class="border border-dark"></span>
+        <span class="border border-white"></span>
+
+        <hr>
+
+        <style>
+            span {
+              display: inline-block;
+              width: 100px;
+              height: 100px;
+              margin: 10px;
+              background-color: #fbfbfb;
+            }
+        </style>
+        
+        <span class="border border-1"></span>
+        <span class="border border-2"></span>
+        <span class="border border-3"></span>
+        <span class="border border-4"></span>
+        <span class="border border-5"></span> -->
+
+        <hr>
+
+        <div class="container">
+            <style>
+                span {
+                  display: inline-block;
+                  width: 100px;
+                  height: 100px;
+                  margin: 10px;
+                  background-color: #858d95;
+                }
+            </style>
+            
+            <span class="rounded"></span>
+            <span class="rounded-top"></span>
+            <span class="rounded-end"></span>
+            <span class="rounded-bottom"></span>
+            <span class="rounded-start"></span>
+            <span class="rounded-circle"></span>
+            <span class="rounded-pill" style="width: 200px;"></span>
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <style>
+                span {
+                  display: inline-block;
+                  width: 100px;
+                  height: 100px;
+                  margin: 10px;
+                  background-color: #858d95;
+                }
+              </style>
+              
+              <span class="rounded-0"></span>
+              <span class="rounded-1"></span>
+              <span class="rounded-2"></span>
+              <span class="rounded-3"></span>
+        </div>
+
+        <hr>
+
+        <div class="container mt-5 mb-5">
+            <p class="text-primary">.text-primary</p>
+            <p class="text-secondary">.text-secondary</p>
+            <p class="text-success">.text-success</p>
+            <p class="text-danger">.text-danger</p>
+            <p class="text-warning bg-dark">.text-warning</p>
+            <p class="text-info bg-dark">.text-info</p>
+            <p class="text-light bg-dark">.text-light</p>
+            <p class="text-dark">.text-dark</p>
+            <p class="text-body">.text-body</p>
+            <p class="text-muted">.text-muted</p>
+            <p class="text-white bg-dark">.text-white</p>
+            <p class="text-black-50">.text-black-50</p>
+            <p class="text-white-50 bg-dark">.text-white-50</p>
+        </div>
+
+
+
+
+
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
